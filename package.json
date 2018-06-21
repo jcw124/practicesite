@@ -1,0 +1,20 @@
+{
+  "name": "practicesite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcw124/practicesite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcw124/practicesite/issues"
+  },
+  "homepage": "https://github.com/jcw124/practicesite#readme",
+  "description": ""
+}
