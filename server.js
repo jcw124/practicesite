@@ -1,7 +1,9 @@
+//dependencies
 const EXPRESS = require('express');
 const PATH = require('path');
 const LOGGER = require('morgan');
 const BODYPARSER = require('body-parser');
+
 
 const APP = express();
 
@@ -34,4 +36,3 @@ APP.use(function(err, req, res, next) {
   });
 
   module.exports = app;
-  
