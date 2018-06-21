@@ -17,7 +17,7 @@ APP.set('view engine', 'handlebars');
 APP.use(logger('combined'));
 APP.use(BODYPARSER.json());
 APP.use(BODYPARSER.urlencoded({ extend: false}));
-APP.use(EXPRESS.static(PATH.join(_dirname, 'public')));
+APP.use(express.static(PATH.join(_dirname, 'public')));
 
 require('./routes')(APP);
 
