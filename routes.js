@@ -1,12 +1,12 @@
 module.exports = function(app){
 
     const application = require('./routes/application');
-    const routeone = require('./routes/routeone');
-    const routetwo = require('./routes/routetwo');
-    const routethree = require('./routes/routethree');
+    const shop = require('./routes/shop');
+    const pets = require('./routes/pets');
+    const grooming = require('./routes/grooming');
 
     app.use('/', application);
-    app.use('/routeone', one);
-    app.use('/routetwo', two);
-    app.use('/routethree', three);
+    app.use('/routeone', shop);
+    app.use('/pets', pets);
+    app.use('/grooming', grooming);
 }
